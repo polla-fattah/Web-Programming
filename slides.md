@@ -6,6 +6,7 @@ info: |
   Backend focus: PHP, Laravel, SQL, Auth, REST APIs, Testing, Deployment
 paginate: true
 drawings: false
+routerMode: hash
 ---
 
 # Backend Web Programming
