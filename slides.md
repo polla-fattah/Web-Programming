@@ -17,23 +17,23 @@ drawings: false
 ---
 
 ## What you will be able to do by the end
-- Build Laravel apps using MVC + Eloquent
-- Design relational DB schemas + migrations
-- Implement **validation + authorization** correctly
-- Create REST APIs + API resources
-- Write feature tests for critical flows
-- Deploy a simple production release
+- **Build Laravel apps** using MVC + Eloquent
+- **Design relational DB schemas** + migrations
+- **Implement validation + authorization** correctly
+- **Create REST APIs** + API resources
+- **Write feature tests** for critical flows
+- **Deploy a simple production release**
 
 ---
 
 ## Tools (Install in Week 1)
-- PHP 8.x
-- Composer
-- Laravel (via Composer)
-- Database: MySQL or PostgreSQL
-- Git + GitHub/GitLab
-- VS Code
-- Postman (or Insomnia)
+- **PHP 8.x**
+- **Composer**: PHP package manager
+- **Laravel**: Installed via Composer
+- **Database**: MySQL or PostgreSQL
+- **Git + GitHub/GitLab**: Version control
+- **VS Code**: Code editor
+- **Postman (or Insomnia)**: API testing tool
 
 ---
 
@@ -61,13 +61,13 @@ Pick one project and grow it weekly:
 ---
 
 ## Project Modules (Incremental)
-- Users + Auth
-- Roles/Permissions (Admin/Staff/User)
-- CRUD + Search + Pagination
-- Relationships (1–M, M–M)
-- Reports (basic)
-- REST API endpoints
-- Testing + Deployment
+- **Users + Auth**: Registration and login system
+- **Roles/Permissions**: Admin/Staff/User access control
+- **CRUD + Search + Pagination**: Create, read, update, delete with filtering
+- **Relationships**: 1–to–Many, Many–to–Many associations
+- **Reports**: Basic data summaries
+- **REST API endpoints**: Structured API access
+- **Testing + Deployment**: Quality assurance and production release
 
 ---
 
@@ -95,92 +95,102 @@ Pick one project and grow it weekly:
 ## Weeks 1–2: PHP Refresher (fast)
 **Goal:** Learn PHP style + what’s different in OOP
 
-- Syntax, variables, constants, arrays
-- Functions, type hints, null-safety
-- OOP: classes, interfaces, traits, namespaces, exceptions
-- Composer + autoloading
-- Tiny “no-framework” web flow (request/response idea)
+- **Syntax, variables, constants, arrays**: PHP data structures
+- **Functions**: Type hints, null-safety, return types
+- **OOP**: Classes, interfaces, traits, namespaces, exceptions
+- **Composer + autoloading**: Package management and code organization
+- **Tiny "no-framework" web flow**: Request/response concept
 
 ---
 
 ## Weeks 3–4: Laravel Fundamentals
-- Laravel project structure
-- Routing + controllers
-- Request lifecycle + middleware basics
-- Validation
-- Blade (minimal, enough to test flows)
+- **Laravel project structure**: Folders, config, app layout
+- **Routing + controllers**: HTTP handling and request processing
+- **Request lifecycle + middleware basics**: How requests flow through Laravel
+- **Validation**: Input verification and error handling
+- **Blade**: Minimal templating, enough to test flows
+- **Artisan CLI** *(intro)*: Scaffolding models, controllers, migrations, running commands
+- **Laravel Debugbar**: Query profiling, request/response inspection, timing
 
 **Deliverable:** CRUD module (with validation)
 
 ---
 
 ## Weeks 5–6: Database + Eloquent Deepening
-- Migrations, seeders, factories
-- Eloquent relationships
-- Query builder, pagination
-- Filtering/search patterns
+- **Migrations, seeders, factories**: Database schema management and testing data
+- **Eloquent relationships**: Defining model associations
+- **Query builder**: Building dynamic queries
+- **Pagination**: Limiting query results per page
+- **Filtering/search patterns**: Finding specific records
+- **Tinker** *(intro)*: Interactive shell for testing models and queries
+- **Database GUI** (DBeaver/TablePlus): Visual data exploration alongside Tinker
+- **Database Transactions**: Data consistency when multiple tables change together
+- **Eager Loading**: Fix N+1 query problems
+- **Collections**: Manipulating data sets
 
 **Deliverable:** 2–3 related models + listing with filters
 
 ---
 
-## Weeks 7–8: Auth + Authorization (real backend)
-- Authentication (login/register)
-- Authorization with **policies/gates**
-- Ownership checks (user can only edit own resource)
+##**Authentication**: Login/register systems
+- **Authorization with policies/gates**: Role-based access control
+- **Ownership checks**: Users can only edit their own resources
+- **Secure route protection**: Restrict unauthorized accesscan only edit own resource)
 - Secure route protection
 
 **Deliverable:** Role-based access + protected admin screens/endpoints
 
 ---
 
-## Weeks 9–10: REST APIs
-- REST conventions + status codes
-- API Resources (transformers)
-- Token or session-based API (your choice)
-- Rate limiting basics
-- Why real-time? polling vs push
-- Laravel Broadcasting concepts: Events, Channels, Authorization
-- WebSocket server: Laravel Reverb (first-party)
+##**REST conventions + status codes**: Standard HTTP patterns
+- **API Resources (transformers)**: Formatting data responses
+- **Token or session-based API**: API authentication (your choice)
+- **Rate limiting basics**: Prevent abuse
+- **Email/Notifications**: Password resets, confirmations, alerts
+- **Real-time concepts**: Polling vs push
+- **Laravel Broadcasting**: Events, Channels, Authorization
+- **WebSocket server**: Laravel Reverb (first-party)
+- **Client listening** –everb (first-party)
 - Client listening (minimal): Laravel Echo (or simple JS)
-- 
+
 **Deliverable:** API for core entities + Postman collection
 
 ---
 
-## Week 11: File Uploads + Storage + Logging
-- Upload validation
-- Storage (local/public)
-- Logging + basic error handling patterns
-
+## Week 11: File Uploads + Storage + Logging + Error Handling
+- **Upload validation**: File type and size checks
+- **Storage**: Local and public file management
+- **Logging + error handling patterns**: Tracking issues and graceful responses
+- **Exception Handling**: Custom exceptions, graceful error responses
+- **Queues** *(optional)*: Async tasks (emails, reports) for performance
 
 **Deliverable:** Attachment/image upload for one entity
 
 ---
 
 ## Week 12: Testing (minimum viable, very practical)
-- Feature tests (HTTP)
-- Testing auth + authorization
-- Database refresh + factories
+- **Feature tests**: HTTP request and response testing
+- **Testing auth + authorization**: Security flow validation
+- **Database refresh + factories**: Test data setup
 
 **Deliverable:** Tests for the top 3 critical flows
 
 ---
 
 ## Week 13: Deployment + Production Basics
-- Environment config
-- Migrations in production
-- Basic security checklist
-- Deploy to shared hosting or VPS
+- **Environment config**: Settings per environment
+- **Migrations in production**: Safe database updates
+- **Basic security checklist**: Key security measures
+- **Deploy to shared hosting or VPS**: Live server setup
 
 **Deliverable:** Live demo URL (or LAN server) + deployment notes
 
 ---
 
 ## Week 14: Final Project Demo
-- Final polishing
-- Demo + code review
-- Project report (architecture + DB + endpoints + tests)
+- **Final polishing**: Code cleanup and refinement
+- **Demo + code review**: Presentation and technical evaluation
+- **Project report**: Architecture, database schema, endpoints, test coverage
 
 ---
 
