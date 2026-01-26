@@ -133,7 +133,7 @@ Pick one project and grow it weekly:
 
 ---
 
-##**Authentication**: Login/register systems
+## **Authentication**: Login/register systems
 - **Authorization with policies/gates**: Role-based access control
 - **Ownership checks**: Users can only edit their own resources
 - **Secure route protection**: Restrict unauthorized accesscan only edit own resource)
@@ -143,7 +143,7 @@ Pick one project and grow it weekly:
 
 ---
 
-##**REST conventions + status codes**: Standard HTTP patterns
+## **REST conventions + status codes**: Standard HTTP patterns
 - **API Resources (transformers)**: Formatting data responses
 - **Token or session-based API**: API authentication (your choice)
 - **Rate limiting basics**: Prevent abuse
