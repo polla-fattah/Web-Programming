@@ -17,6 +17,25 @@ routerMode: hash
 
 ---
 
+# Course Map
+
+- [Week 1: PHP Basics](27)
+- [Week 2: PHP OOP](54)
+- [Week 3: Laravel Routing & MVC](#)
+- [Week 4: Validation & Blade](#week-04)
+- [Week 5: Eloquent Relationships](#week-05)
+- [Week 6: Filtering & Pagination](#week-06)
+- [Week 7: Authentication](#week-07)
+- [Week 8: Authorization & Policies](#week-08)
+- [Week 9: REST API](#week-09)
+- [Week 10: API Resources & Rate Limiting](#week-10)
+- [Week 11: Uploads & Logging](#week-11)
+- [Week 12: Testing](#week-12)
+- [Week 13: Deployment](#week-13)
+- [Week 14: Final Demo](#week-14)
+
+---
+
 ## What you will be able to do by the end
 - **Build Laravel apps** using MVC + Eloquent
 - **Design relational DB schemas** + migrations
@@ -240,56 +259,70 @@ Pick one project and grow it weekly:
 
 ---
 src: ./weeks/01-php-basics.md
+id: week-01
 ---
 
 ---
 src: ./weeks/02-php-oop.md
+id: week-02
 ---
 
 ---
 src: ./weeks/03-laravel-routing-mvc.md
+id: week-03
 ---
 
 ---
 src: ./weeks/04-laravel-validation-blade.md
+id: week-04
 ---
 
 ---
 src: ./weeks/05-eloquent-relationships.md
+id: week-05
 ---
 
 ---
 src: ./weeks/06-filtering-pagination.md
+id: week-06
 ---
 
 ---
 src: ./weeks/07-auth.md
+id: week-07
 ---
 
 ---
 src: ./weeks/08-authorization-policies.md
+id: week-08
 ---
 
 ---
 src: ./weeks/09-rest-api.md
+id: week-09
 ---
 
 ---
 src: ./weeks/10-api-resources-rate-limit.md
+id: week-10
 ---
 
 ---
 src: ./weeks/11-uploads-logging.md
+id: week-11
 ---
 
 ---
 src: ./weeks/12-testing.md
+id: week-12
 ---
 
 ---
 src: ./weeks/13-deployment.md
+id: week-13
 ---
 
 ---
 src: ./weeks/14-final-demo.md
+id: week-14
 ---

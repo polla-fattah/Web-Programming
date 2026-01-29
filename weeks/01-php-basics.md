@@ -359,27 +359,3 @@ $student = [
   "department" => "CS"
 ];
 ```
-
----
-
-## 6) Lab Steps (Checklist)
-
-1. Create `register.php`
-2. Build `validate($input)` → returns `errors[]`
-3. If valid → add to `$students[]`
-4. Print JSON response:
-
-   * ok/data/students
-   * or ok/errors
-
----
-
-## 7) Extend lab:
-
-* Add `phone`:
-
-  * required, digits, length rule
-* Add update by email:
-
-  * update age/department
-* Push to Git with clean commits
