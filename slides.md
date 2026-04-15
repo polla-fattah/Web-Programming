@@ -22,7 +22,7 @@ routerMode: hash
 - [Week 1: PHP Basics](27)
 - [Week 2: PHP OOP](54)
 - [Week 3: Laravel Fundamentals](72)
-- [Week 4: Validation & Blade](#week-04)
+- [Week 4: Validation & Blade](126)
 - [Week 5: Eloquent Relationships](#week-05)
 - [Week 6: Filtering & Pagination](#week-06)
 - [Week 7: Authentication](#week-07)
