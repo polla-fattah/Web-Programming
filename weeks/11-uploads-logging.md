@@ -163,7 +163,7 @@ php artisan sentry:publish
 ```
 
 **2. Configuration (`.env`):**
-```env
+```bash
 # The DSN securely connects your application to your specific Sentry project dashboard
 SENTRY_LARAVEL_DSN="https://examplePublicKey@o0.ingest.sentry.io/0"
 ```

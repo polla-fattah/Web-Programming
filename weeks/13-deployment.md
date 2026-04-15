@@ -45,7 +45,7 @@ Modern PHP frameworks are designed with a single public entry point. You must st
 ## 4. The Production `.env` File
 The `.env` file must never be pushed to Git. When you clone your code to the remote server, you must manually recreate `.env` and switch the system into Production Mode.
 
-```env
+```bash
 # 1. Securing the Environment
 APP_ENV=production
 
